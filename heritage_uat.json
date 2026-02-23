@@ -1,0 +1,39 @@
+{
+  "tenant_id": "hfcoeuat",
+  "tenant_name": "Heritage",
+  "brand": {
+    "primary_color": "#2E7D32",
+    "primary_dark_color": "#1B5E20",
+    "blob_base_url": "https://cdn.salescode.ai"
+  },
+  "features": {
+    "catalog": {
+      "enabled": true,
+      "services": {
+        "product_sync": {
+          "enabled": true,
+          "sync_mode": "startup",
+          "sync_ttl_hours": 24,
+          "local_cache_ttl_minutes": 30
+        },
+        "category_sync": {
+          "enabled": true,
+          "sync_mode": "startup",
+          "sync_ttl_hours": 72,
+          "local_cache_ttl_minutes": 60
+        }
+      }
+    },
+    "orders": {
+      "enabled": true,
+      "services": {
+        "order_history": {
+          "enabled": true,
+          "sync_ttl_hours": 1
+        }
+      }
+    }
+  },
+  "strategies": {},
+  "extra": {}
+}
