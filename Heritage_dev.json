@@ -1,6 +1,6 @@
 {
   "tenant_id": "hfcoeuat",
-  "tenant_name": "Heritage",
+  "tenant_name": "Heritage-dev",
   "brand": {
     "primary_color": "#2E7D32",
     "primary_dark_color": "#1B5E20",
