@@ -1,0 +1,21 @@
+{
+  "tenantId": "acme",
+  "tenantName": "Acme",
+  "strategies": {
+    "pricing": "fixed"
+  },
+  "features": {
+    "catalog": {
+      "strategies": {
+        "pricing": "dynamic"
+      },
+      "services": {
+        "product_sync": {
+          "strategies": {
+            "pricing": "tiered"
+          }
+        }
+      }
+    }
+  }
+}
