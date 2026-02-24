@@ -4,9 +4,9 @@
   "brand": {
     "primary_color": "#2E7D32",
     "primary_dark_color": "#1B5E20",
-    "blob_base_url": "https://cdn.salescode.ai",
-    "logoUrl": "https://d1wdtp4opubtzo.cloudfront.net/public/hfcoeuat/images/admin_1770988125610_HeritageSquareLogo-zjUrKYQQphlR.png",
-    "bannerBlobKey": "https://d1wdtp4opubtzo.cloudfront.net/public/hfcoeuat/images/admin_1770983052340_HF_LoginBanner-zCfCxeWwlPor.png"
+    "blob_base_url": "https://d1wdtp4opubtzo.cloudfront.net",
+    "logo_url": "https://d1wdtp4opubtzo.cloudfront.net/public/hfcoeuat/images/admin_1770988125610_HeritageSquareLogo-zjUrKYQQphlR.png",
+    "banner_blob_key": "public/hfcoeuat/images/admin_1770983052340_HF_LoginBanner-zCfCxeWwlPor.png"
   },
   "features": {
     "catalog": {
