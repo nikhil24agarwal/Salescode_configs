@@ -11,33 +11,22 @@
     "privacy_policy_url": "https://d1wdtp4opubtzo.cloudfront.net/public/hfcoeuat/images/PRIVACY%20POLICY%20-%20CCBSL-hMBWJWKHyrIl-vZPkEdjFCzmA.pdf"
   },
   "features": {
-    "catalog": {
-      "enabled": true,
-      "services": {
-        "product_sync": {
-          "enabled": true,
-          "sync_mode": "startup",
-          "sync_ttl_hours": 24,
-          "local_cache_ttl_minutes": 30
-        },
-        "category_sync": {
-          "enabled": true,
-          "sync_mode": "startup",
-          "sync_ttl_hours": 72,
-          "local_cache_ttl_minutes": 60
-        }
-      }
-    },
-    "orders": {
-      "enabled": true,
-      "services": {
-        "order_history": {
-          "enabled": true,
-          "sync_ttl_hours": 1
-        }
+  "pjp": {
+    "enabled": true,
+    "strategies": {},
+    "extra": {},
+    "services": {
+      "pjp_sync": {
+        "enabled": true,
+        "syncMode": "startup",
+        "syncTtlHours": 24,
+        "localCacheTtlMinutes": 30,
+        "strategies": {},
+        "extra": {}
       }
     }
   },
   "strategies": {},
   "extra": {}
+}
 }
