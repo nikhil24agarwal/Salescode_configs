@@ -18,13 +18,13 @@
     "services": {
       "pjp_sync": {
         "enabled": true,
-        "syncMode": "startup",
-        "syncTtlHours": 24,
-        "localCacheTtlMinutes": 30,
+        "sync_mode": "startup",
+        "sync_ttl_hours": 24,
+        "local_cache_ttl_minutes": 30,
         "strategies": {},
         "extra": {}
-      }
     }
+  }
   },
   "strategies": {},
   "extra": {}
