@@ -1,6 +1,8 @@
 {
   "tenant_id": "hfcoeuat",
   "tenant_name": "Heritage-dev",
+  "termsAndConditionsUrl": "https://d1wdtp4opubtzo.cloudfront.net/public/hfcoeuat/images/Terms%20of%20Use%20-%20Final-lEewbPHAcEVk-srZAbOVvuwut.pdf",
+  "privacyPolicyUrl": "https://d1wdtp4opubtzo.cloudfront.net/public/hfcoeuat/images/PRIVACY%20POLICY%20-%20CCBSL-hMBWJWKHyrIl-vZPkEdjFCzmA.pdf",
   "brand": {
     "primary_color": "#2E7D32",
     "primary_dark_color": "#1B5E20",
