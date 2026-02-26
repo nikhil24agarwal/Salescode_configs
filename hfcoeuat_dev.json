@@ -26,6 +26,21 @@
     }
   }
   },
+  "user_profile": {
+  "enabled": true,
+  "strategies": {},
+  "extra": {},
+  "services": {
+    "user_profile_sync": {
+      "enabled": true,
+      "sync_mode": "startup",
+      "sync_ttl_hours": 24,
+      "local_cache_ttl_minutes": null,
+      "strategies": {},
+      "extra": {}
+    }
+  }
+  },
   "strategies": {},
   "extra": {}
 }
