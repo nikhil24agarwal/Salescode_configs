@@ -17,7 +17,7 @@
     "extra": {},
     "services": {
       "pjp_sync": {
-        "enabled": true,
+        "enabled": false,
         "sync_mode": "startup",
         "sync_ttl_hours": 24,
         "local_cache_ttl_minutes": 30,
