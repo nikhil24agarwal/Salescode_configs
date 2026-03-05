@@ -41,6 +41,26 @@
     }
   }
   },
+  "recommendations": {
+    "enabled": true,
+    "services": {
+        "recommendation_sync": {
+            "enabled": true,
+            "sync_mode": "startup",
+            "sync_ttl_hours": 24
+        }
+    }
+},
+"targets": {
+    "enabled": true,
+    "services": {
+        "target_sync": {
+            "enabled": true,
+            "sync_mode": "startup",
+            "sync_ttl_hours": 24
+        }
+    }
+},
   "strategies": {},
   "extra": {}
 }
