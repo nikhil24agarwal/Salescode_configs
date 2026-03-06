@@ -71,11 +71,11 @@
             "enabled": true,
             "label": "SALES TARGET",
             "subtitle": "Must Achieve Today",
-            "metric": "SALES_UNITS",
+            "metric": "SALES_AMOUNT",
             "period": "daily",
             "avg_sales_days": 7,
             "show_incentive": false,
-            "unit": "pcs",
+            "unit": "₹",
             "color": "#1BC2B4"
           }
         ]
