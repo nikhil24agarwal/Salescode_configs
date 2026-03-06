@@ -11,57 +11,78 @@
     "privacy_policy_url": "https://d1wdtp4opubtzo.cloudfront.net/public/hfcoeuat/images/PRIVACY%20POLICY%20-%20CCBSL-hMBWJWKHyrIl-vZPkEdjFCzmA.pdf"
   },
   "features": {
-  "pjp": {
-    "enabled": true,
-    "strategies": {},
-    "extra": {},
-    "services": {
-      "pjp_sync": {
-        "enabled": true,
-        "sync_mode": "startup",
-        "sync_ttl_hours": 24,
-        "local_cache_ttl_minutes": 30,
-        "strategies": {},
-        "extra": {}
-    }
-  }
-  },
-  "user_profile": {
-  "enabled": true,
-  "strategies": {},
-  "extra": {},
-  "services": {
-    "user_profile_sync": {
+    "pjp": {
       "enabled": true,
-      "sync_mode": "startup",
-      "sync_ttl_hours": 24,
-      "local_cache_ttl_minutes": null,
       "strategies": {},
-      "extra": {}
-    }
-  }
-  },
-  "recommendations": {
-    "enabled": true,
-    "services": {
+      "extra": {},
+      "services": {
+        "pjp_sync": {
+          "enabled": true,
+          "sync_mode": "startup",
+          "sync_ttl_hours": 24,
+          "local_cache_ttl_minutes": 30,
+          "strategies": {},
+          "extra": {}
+        }
+      }
+    },
+    "user_profile": {
+      "enabled": true,
+      "strategies": {},
+      "extra": {},
+      "services": {
+        "user_profile_sync": {
+          "enabled": true,
+          "sync_mode": "startup",
+          "sync_ttl_hours": 24,
+          "local_cache_ttl_minutes": null,
+          "strategies": {},
+          "extra": {}
+        }
+      }
+    },
+    "recommendations": {
+      "enabled": true,
+      "services": {
         "recommendation_sync": {
-            "enabled": true,
-            "sync_mode": "startup",
-            "sync_ttl_hours": 24
+          "enabled": true,
+          "sync_mode": "startup",
+          "sync_ttl_hours": 24
         }
-    }
-},
-"targets": {
-    "enabled": true,
-    "services": {
+      }
+    },
+    "targets": {
+      "enabled": true,
+      "services": {
         "target_sync": {
-            "enabled": true,
-            "sync_mode": "startup",
-            "sync_ttl_hours": 24
+          "enabled": true,
+          "sync_mode": "startup",
+          "sync_ttl_hours": 24
         }
+      }
+    },
+    "home": {
+      "enabled": true,
+      "strategies": {},
+      "extra": {
+        "tasks": [
+          {
+            "type": "sales_target",
+            "enabled": true,
+            "label": "SALES TARGET",
+            "subtitle": "Must Achieve Today",
+            "metric": "SALES_AMOUNT",
+            "period": "DAILY",
+            "avg_sales_days": 7,
+            "show_incentive": false,
+            "unit": "₹",
+            "color": "#E86F2C"
+          }
+        ]
+      },
+      "services": {}
     }
-},
+  },
   "strategies": {},
   "extra": {}
-}
 }
