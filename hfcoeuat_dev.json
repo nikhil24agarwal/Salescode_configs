@@ -75,7 +75,7 @@
             "period": "daily",
             "avg_sales_days": 7,
             "show_incentive": false,
-            "unit": "₹",
+            "unit": "pcs",
             "color": "#1BC2B4"
           }
         ]
