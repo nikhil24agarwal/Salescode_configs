@@ -71,7 +71,7 @@
             "enabled": true,
             "label": "SALES TARGET",
             "subtitle": "Must Achieve Today",
-            "metric": "SALES_AMOUNT",
+            "metric": "SALES_UNIT",
             "period": "daily",
             "avg_sales_days": 7,
             "show_incentive": false,
