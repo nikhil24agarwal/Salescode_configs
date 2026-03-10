@@ -69,10 +69,10 @@
           {
             "type": "sales_target",
             "enabled": true,
-            "label": "SALES TARGETT",
+            "label": "SALES TARGET",
             "subtitle": "Must Achieve Today",
             "metric": "SALES_AMOUNT",
-            "period": "monthly",
+            "period": "daily",
             "avg_sales_days": 7,
             "show_incentive": false,
             "unit": "₹",
